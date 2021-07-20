@@ -6,6 +6,7 @@ pipeline {
         stage('Start') {
           steps {
             echo 'Test Start'
+            node(label: 'Node')
           }
         }
 
